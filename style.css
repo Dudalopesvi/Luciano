@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cartao-principal {
+    background-color: rgb(231, 231, 245);
+    height: 90%;
+    width: 100%;
+    border: 2px solid rgb(224, 226, 228);
+    border-radius: 10px;
+    box-shadow: 5 5 5px rgb(11, 38, 62);
+    color: #333;
+    text-decoration: none;
+    font-weight: 300;
+    transition: .5s;
+}
+
+
+.cartao-topo {
+    background-color: cornflowerblue;
+    width: 400px;
+    height: 200px;
+    margin: 84px;
+    border: 2px solid rgb(224, 226, 228);
+    border-radius: 10px;
+    box-shadow: 5 5 5px rgb(11, 38, 62);
+    color: #333;
+    text-decoration: none;
+    font-weight: 300;
+    transition: .5s;
+    display: flex;
+    gap: 20px;
+}
+
+.cartao-baixo {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 50%;
+}
+
+
+.ponto {
+    background-color: rgb(143, 154, 252);
+    width: 15px;
+    height: 15px;
+   margin-top: 175px;
+    border: 2px solid rgb(184, 219, 253);
+    border-radius: 10px;
+    display: flex;
+}
+
+.direita {
+    height: 100%;
+    width: 50%;
+   
+}
+
+.esquerda {
+    height: 100%;
+    width: 50%;
+
+}
+
+.cartao {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(224, 226, 228);
+    border-radius: 10px;
+    box-shadow: 5 5 5px rgb(11, 38, 62);
+    color: #333;
+    transition: .5s;
+}
+
+body {
+    background-color: rgb(230, 235, 246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.botao1{
+
+    background-color: rgb(159, 147, 228);
+    width: 100%;
+    height: 30px;
+    border-color: rgb(55, 25, 83);
+}
+
+.grupo-botao{
+    display: flex;
+    gap: 2px;
+}
